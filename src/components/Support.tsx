@@ -1,6 +1,6 @@
 import {v4 as uuid} from "uuid";
 import { ArrowRightCircleIcon, ChevronUpIcon, PhoneIcon, UserGroupIcon } from "@heroicons/react/24/solid";
-import { SupportText } from "./SupportText";
+import { SupportText } from "./Support/SupportText";
 
 /* support component */
 function Support(): JSX.Element {

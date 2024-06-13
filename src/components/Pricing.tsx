@@ -1,7 +1,7 @@
 import {v4 as uuid} from "uuid";
 import { CheckMark } from "./CheckMark";
-import { PricingCards } from "./PricingCards";
-import { PricingText } from "./PricingText";
+import { PricingCards } from "./Pricing/PricingCards";
+import { PricingText } from "./Pricing/PricingText";
 
 /* create lorem text */
 export function paraLorem({ text }: { text: string }): void {
