@@ -1,4 +1,4 @@
-import { Menu, X } from "heroicons-react";
+import { HandThumbUpIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import { Login } from "./Login";
 import { NavbarLinks } from "./NavbarLinks";
@@ -13,7 +13,7 @@ function Navbar(): JSX.Element {
   /*event handler */
   const handleClose = () => setNav(!nav);
 
-  const hamburgerMenu = !nav ? <Menu /> : <X />;
+  const hamburgerMenu = !nav ? <HandThumbUpIcon /> : <XMarkIcon />;
   const hamburger = <div className="w-5">{hamburgerMenu}</div>;
 
   return (

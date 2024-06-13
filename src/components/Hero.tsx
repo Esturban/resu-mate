@@ -1,14 +1,14 @@
-import { CloudUpload, Database, PaperAirplane, Server } from "heroicons-react";
+import { CloudArrowUpIcon, ArrowDownOnSquareStackIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/24/solid";
 import uuid from "react-uuid";
 import { HeroDataServices } from "./HeroDataServices";
 import { HeroHeading } from "./HeroHeading";
 import { HeroImage } from "./HeroImage";
 
 const data = [
-  { component: <CloudUpload />, p: "App Security" },
-  { component: <Database />, p: "Dashboard Design" },
-  { component: <Server />, p: "Cloud Data" },
-  { component: <PaperAirplane />, p: "API" },
+  { component: <CloudArrowUpIcon />, p: "App Security" },
+  { component: <ArrowDownOnSquareStackIcon />, p: "Dashboard Design" },
+  { component: <ServerIcon />, p: "Cloud Data" },
+  { component: <PaperAirplaneIcon />, p: "API" },
 ] as const;
 
 export const mappedData = data.map((e) => (
