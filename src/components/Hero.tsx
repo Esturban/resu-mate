@@ -1,14 +1,14 @@
 import { CloudArrowUpIcon, ArrowDownOnSquareStackIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/24/solid";
 import uuid from "react-uuid";
-import { HeroDataServices } from "./HeroDataServices";
+import { HeroResume } from "./HeroResume";
 import { HeroHeading } from "./HeroHeading";
 import { HeroImage } from "./HeroImage";
 
 const data = [
-  { component: <CloudArrowUpIcon />, p: "App Security" },
-  { component: <ArrowDownOnSquareStackIcon />, p: "Dashboard Design" },
-  { component: <ServerIcon />, p: "Cloud Data" },
-  { component: <PaperAirplaneIcon />, p: "API" },
+  { component: <CloudArrowUpIcon />, p: "ATS Compatible" },
+  { component: <ArrowDownOnSquareStackIcon />, p: "Achievement-based" },
+  { component: <ServerIcon />, p: "Goal-oriented" },
+  { component: <PaperAirplaneIcon />, p: "Proven" },
 ] as const;
 
 export const mappedData = data.map((e) => (
@@ -28,7 +28,7 @@ export default function Hero(): JSX.Element {
       <div className="grid md:grid-cols-2 max-w-[1280px] m-auto">
         <HeroHeading />
         <HeroImage />
-          <HeroDataServices />
+          <HeroResume />
       </div>
     </div>
   );
