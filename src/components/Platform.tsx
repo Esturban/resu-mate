@@ -1,5 +1,5 @@
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
-import uuid from "react-uuid";
+import {v4 as uuid} from "uuid";
 
 /* platform component */
 export default function Platform(): JSX.Element {
