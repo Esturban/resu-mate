@@ -1,7 +1,7 @@
-import { NavbarLinksAbout } from "./NavbarLinksAbout";
-import { NavbarLinksPlatforms } from "./NavbarLinksPlatforms";
-import { NavbarLinksPricing } from "./NavbarLinksPricing";
-import { NavbarLinksSupport } from "./NavbarLinksSupport";
+import { NavbarLinksAbout } from "../Navbar/NavbarLinksAbout";
+import { NavbarLinksPlatforms } from "../Navbar/NavbarLinksPlatforms";
+import { NavbarLinksPricing } from "../Navbar/NavbarLinksPricing";
+import { NavbarLinksSupport } from "../Navbar/NavbarLinksSupport";
 import { Link } from "react-scroll";
 
 /**

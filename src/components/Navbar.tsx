@@ -1,8 +1,8 @@
 import { HandThumbUpIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import { Login } from "./Login";
-import { NavbarLinks } from "./NavbarLinks";
-import { NavHandlers } from "./NavHandlers";
+import { NavbarLinks } from "./Navbar/NavbarLinks";
+import { NavHandlers } from "./Navbar/NavHandlers";
 
 /* navbar component */
 function Navbar(): JSX.Element {
