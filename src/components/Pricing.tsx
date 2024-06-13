@@ -1,4 +1,4 @@
-import uuid from "react-uuid";
+import {v4 as uuid} from "uuid";
 import { CheckMark } from "./CheckMark";
 import { PricingCards } from "./PricingCards";
 import { PricingText } from "./PricingText";

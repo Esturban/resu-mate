@@ -1,4 +1,4 @@
-import uuid from "react-uuid";
+import {v4 as uuid} from "uuid";
 import { ArrowRightCircleIcon, ChevronUpIcon, PhoneIcon, UserGroupIcon } from "@heroicons/react/24/solid";
 import { SupportText } from "./SupportText";
 
@@ -43,7 +43,7 @@ function Support(): JSX.Element {
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           className="w-full h-full object-cover mix-blend-overlay"
-          src="support.webp"
+          src="/support.webp"
           alt="Support"
         />
       </div>
