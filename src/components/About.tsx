@@ -1,4 +1,4 @@
-import uuid from "react-uuid";
+import {v4 as uuid} from "uuid";
 import { AboutMappedData } from "./AboutMappedData";
 import { AboutText } from "./AboutText";
 
