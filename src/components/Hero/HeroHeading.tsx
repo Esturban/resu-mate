@@ -1,4 +1,4 @@
-import { HeroGetStarted } from "./HeroGetStarted";
+import { HeroCTA } from "./HeroCTA";
 
 /* container to hold text and button for hero */
 export function HeroHeading(): JSX.Element {
@@ -7,7 +7,7 @@ export function HeroHeading(): JSX.Element {
       <p className="text-2xl mt-2 sm:mt-0">Resumes that make you shine ✨</p>
       <h1 className="py-3 text-5xl md:text-7xl font-bold">Resumate</h1>
       <p className="text-2xl">Get the jobs you deserve</p>
-      <HeroGetStarted />
+      <HeroCTA />
     </div>
   );
 }
