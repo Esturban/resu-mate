@@ -43,7 +43,7 @@ function Support(): JSX.Element {
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           className="w-full h-full object-cover mix-blend-overlay"
-          src="/cloud-landing-page/support.webp"
+          src="support.webp"
           alt="Support"
         />
       </div>
