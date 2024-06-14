@@ -1,13 +1,19 @@
-// types.ts
+import { ReactNode } from 'react';
+
+/**
+ * Props for the NavLink component.
+ */
+export interface NavLinkProps {
+  link: NavLinkType;
+  handleClose: () => void;
+  children?: ReactNode; 
+  className?: string; // Add this line
+}
+
 export type NavLinkType = {
     to: string;
     offset: number;
     title: string;
-  };
-  
-  export type NavLinkProps = {
-    link: NavLinkType;
-    handleClose: () => void;
   };
   
   export type NavButtonProps = {
