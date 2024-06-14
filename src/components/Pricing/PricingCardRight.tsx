@@ -1,5 +1,5 @@
-import { GetStarted } from "./GetStarted";
-import { mappeddataCheckmark } from "./Pricing";
+import { GetStarted } from "../GetStarted";
+import { mappeddataCheckmark } from "../Pricing";
 
 /**
  * create pricing card on the right/bottom side (based on viewpoint)

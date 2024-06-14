@@ -1,22 +1,22 @@
-import uuid from "react-uuid";
-import { ArrowSmRight, Chip, Phone, SupportOutline } from "heroicons-react";
-import { SupportText } from "./SupportText";
+import {v4 as uuid} from "uuid";
+import { ArrowRightCircleIcon, ChevronUpIcon, PhoneIcon, UserGroupIcon } from "@heroicons/react/24/solid";
+import { SupportText } from "./Support/SupportText";
 
 /* support component */
 function Support(): JSX.Element {
   const data = [
     {
-      component: <Phone />,
+      component: <PhoneIcon />,
       span: "Sales",
       p: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Provident quisquam, deserunt molestias neque iusto quos quo? Rerum accusamus facere totam iste doloremque, nisi eum, cupiditate architecto in quam perspiciatis minima.",
     },
     {
-      component: <SupportOutline />,
+      component: <UserGroupIcon />,
       span: "Technical Support",
       p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime commodi assumenda architecto adipisci a eaque eum sequi tenetur voluptate doloremque dolor possimus, consectetur molestiae laborum neque sed corporis ad aut!",
     },
     {
-      component: <Chip />,
+      component: <ChevronUpIcon />,
       span: "Inquiries",
       p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius porro laudantium perspiciatis sunt, reprehenderit earum, nihil minima quas aperiam commodi cum assumenda aspernatur hic veritatis id tempora itaque, consequuntur beatae!",
     },
@@ -33,7 +33,7 @@ function Support(): JSX.Element {
       </div>
 
       <span className="bg-slate-100 pl-8 py-4 absolute bottom-0 w-full flex items-center text-indigo-600">
-        Contact Us <ArrowSmRight />
+        Contact Us <ArrowRightCircleIcon />
       </span>
     </div>
   ));
@@ -43,7 +43,7 @@ function Support(): JSX.Element {
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           className="w-full h-full object-cover mix-blend-overlay"
-          src="/cloud-landing-page/support.webp"
+          src="/support.webp"
           alt="Support"
         />
       </div>

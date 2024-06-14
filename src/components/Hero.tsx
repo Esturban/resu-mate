@@ -1,20 +1,20 @@
-import { CloudUpload, Database, PaperAirplane, Server } from "heroicons-react";
-import uuid from "react-uuid";
-import { HeroDataServices } from "./HeroDataServices";
-import { HeroHeading } from "./HeroHeading";
-import { HeroImage } from "./HeroImage";
+import { CloudArrowUpIcon, ArrowDownOnSquareStackIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/24/solid";
+import {v4 as uuid} from "uuid";
+// import { HeroResume } from "./Hero/HeroResume";
+import { HeroHeading } from "./Hero/HeroHeading";
+import { HeroImage } from "./Hero/HeroImage";
 
 const data = [
-  { component: <CloudUpload />, p: "App Security" },
-  { component: <Database />, p: "Dashboard Design" },
-  { component: <Server />, p: "Cloud Data" },
-  { component: <PaperAirplane />, p: "API" },
+  { component: <CloudArrowUpIcon />, p: "ATS Compatible" },
+  { component: <ArrowDownOnSquareStackIcon />, p: "Achievement-based" },
+  { component: <ServerIcon />, p: "Goal-oriented" },
+  { component: <PaperAirplaneIcon />, p: "Proven" },
 ] as const;
 
 export const mappedData = data.map((e) => (
-  <div className="flex px-4 py-2 text-gray-900" key={uuid()}>
-    <div className="h-6 text-indigo-600">{e.component}</div>
-    <p className="text-gray-900">{e.p}</p>
+  <div className="flex flex-col items-center px-4 py-2" key={uuid()}>
+    <div className="w-24 p-4 bg-indigo-600 text-white rounded-lg">{e.component}</div>
+    <p className="text-gray-900 mt-2">{e.p}</p>
   </div>
 ));
 
@@ -23,12 +23,15 @@ export default function Hero(): JSX.Element {
   return (
     <div
       id="home"
-      className="w-full h-screen bg-zinc-200 flex flex-col justify-between"
+      className="relative h-screen overflow-hidden bg-indigo-100"
     >
-      <div className="grid md:grid-cols-2 max-w-[1280px] m-auto">
+      <HeroImage />
+      <div className="absolute inset-0 bg-white opacity-25"></div>
+      {/* <header className="absolute top-0 left-0 right-0 z-20"> */}
+        {/* Your Navbar goes here */}
+      {/* </header> */}
+      <div className="container relative z-10 flex items-center py-32 mx-2 md:px-12 xl:py-40">
         <HeroHeading />
-        <HeroImage />
-          <HeroDataServices />
       </div>
     </div>
   );
