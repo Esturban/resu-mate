@@ -1,9 +1,9 @@
 import {v4 as uuid} from "uuid";
-import { ArrowRightCircleIcon, ChevronUpIcon, PhoneIcon, UserGroupIcon } from "@heroicons/react/24/solid";
-import { SupportText } from "./Support/SupportText";
+import { ChevronUpIcon, PhoneIcon, UserGroupIcon } from "@heroicons/react/24/solid";
+import { SupportText } from "./Features/FeatureText";
 
 /* support component */
-function Support(): JSX.Element {
+function Features(): JSX.Element {
   const data = [
     {
       component: <PhoneIcon />,
@@ -28,13 +28,10 @@ function Support(): JSX.Element {
         <div className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]">
           {e.component}
         </div>
-        <span className="font-bold text-2xl my-6">{e.span}</span>
+        <span className="font-bold text-2xl my-18">{e.span}</span>
         <p className="text-gray-600 text-xl  mb-12">{e.p}</p>
       </div>
 
-      <span className="bg-slate-100 pl-8 py-4 absolute bottom-0 w-full flex items-center text-indigo-600">
-        Contact Us <ArrowRightCircleIcon />
-      </span>
     </div>
   ));
 
@@ -58,4 +55,4 @@ function Support(): JSX.Element {
   );
 }
 
-export default Support;
+export default Features;
