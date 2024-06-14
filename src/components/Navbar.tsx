@@ -1,4 +1,5 @@
-import { HandThumbUpIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import { HandThumbUpIcon, XMarkIcon, } from "@heroicons/react/24/solid";
+import {  } from "@heroicons/react/solid";
 import { useState } from "react";
 import { Login } from "./Login";
 import { NavbarLinks } from "./Navbar/NavbarLinks";
@@ -17,7 +18,7 @@ function Navbar(): JSX.Element {
   const hamburger = <div className="w-5">{hamburgerMenu}</div>;
 
   return (
-    <div className="w-screen sm:h-20 z-10 bg-zinc-200 fixed drop-shadow-lg">
+    <div className="w-screen sm:h-20 z-10 bg-zinc-200 fixed drop-shadow-lg absolute top-0 left-0 right-0 z-20">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <NavbarLinks />
         <Login />
