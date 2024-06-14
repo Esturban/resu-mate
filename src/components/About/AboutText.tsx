@@ -6,11 +6,14 @@ export function AboutText(): JSX.Element {
         Trusted by Legal, Finance, and Healthcare Professionals
       </h2>
       <p className="sm:text-3xl py-6 text-gray-500 px-5 sm:px-4 md:px-3 lg:px-2 xl:px-1">
-      We didn’t just update the resume process; we transformed it.
-      Say goodbye to traditional resumes. Your perfect resume is now within reach.  
-      Subscribe to a plan and request as many resumes as you need.
-      Receive your resume within an average of two business days.
-      We’ll keep refining it until you’re completely satisfied.
+      We use the best resume formulas from <span className="font-bold">ivy league schools and top-tier head hunters.</span>
+      </p>
+      <p className="sm:text-3xl py-6 text-gray-500 px-5 sm:px-4 md:px-3 lg:px-2 xl:px-1">
+      Traditional resumes don't cut it anymore.
+      </p>
+      <p className="sm:text-3xl py-6 text-gray-500 px-5 sm:px-4 md:px-3 lg:px-2 xl:px-1 font-bold">Achievement-based resumes are the new standard.</p>
+      <p className="sm:text-3xl py-6 text-gray-500 px-5 sm:px-4 md:px-3 lg:px-2 xl:px-1"> 
+      
       </p>
     </div>
   );
