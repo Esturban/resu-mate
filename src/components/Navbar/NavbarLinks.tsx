@@ -1,7 +1,7 @@
 import { NavbarLinksAbout } from "../Navbar/NavbarLinksAbout";
 import { NavbarLinksPlatforms } from "../Navbar/NavbarLinksPlatforms";
 import { NavbarLinksPricing } from "../Navbar/NavbarLinksPricing";
-import { NavbarLinksSupport } from "../Navbar/NavbarLinksSupport";
+import { NavbarLinksFeatures } from "../Navbar/NavbarLinksFeatures";
 import { Link } from "react-scroll";
 
 /**
@@ -24,7 +24,7 @@ export function NavbarLinks(): JSX.Element {
       <ul className="hidden md:flex cursor-pointer">
         
         <li>{NavbarLinksAbout()}</li>
-        <li>{NavbarLinksSupport()}</li>
+        <li>{NavbarLinksFeatures()}</li>
         <li>{NavbarLinksPlatforms()}</li>
         <li>{NavbarLinksPricing()}</li>
       </ul>

@@ -36,7 +36,7 @@ function Features(): JSX.Element {
   ));
 
   return (
-    <div id="support" className="w-full mt-24">
+    <div id="features" className="w-full mt-24">
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           className="w-full h-full object-cover mix-blend-overlay"
