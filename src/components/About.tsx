@@ -10,8 +10,8 @@ function About(): JSX.Element {
       pText2: "Completion",
     },
     {
-      pText1: "24/7",
-      pText2: "Delivery",
+      pText1: "500+",
+      pText2: "Delivered",
     },
     {
       pText1: "100%",

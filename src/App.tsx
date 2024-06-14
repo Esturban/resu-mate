@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Platform from "./components/Platform";
 import Pricing from "./components/Pricing";
-import Support from "./components/Support";
+import Features from "./components/Features";
 
 /* main app entry */
 export default function App() {
@@ -13,7 +13,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
-      <Support />
+      <Features />
       <Platform />
       <Pricing />
       <Footer />
