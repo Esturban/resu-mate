@@ -1,6 +1,6 @@
-import uuid from "react-uuid";
-import { AboutMappedData } from "./AboutMappedData";
-import { AboutText } from "./AboutText";
+import {v4 as uuid} from "uuid";
+import { AboutMappedData } from "./About/AboutMappedData";
+import { AboutText } from "./About/AboutText";
 
 /* about component */
 function About(): JSX.Element {

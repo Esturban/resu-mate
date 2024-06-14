@@ -1,5 +1,5 @@
-import { Check } from "heroicons-react";
-import uuid from "react-uuid";
+import { CheckCircleIcon } from "@heroicons/react/24/solid";
+import {v4 as uuid} from "uuid";
 
 /* platform component */
 export default function Platform(): JSX.Element {
@@ -13,7 +13,7 @@ export default function Platform(): JSX.Element {
   const mappedData = data.map((e) => (
     <div className="flex" key={uuid()}>
       <div className="w-7 mr-4 text-green-600">
-        <Check />
+        <CheckCircleIcon />
       </div>
       <div>
         <h3 className="font-bold text-lg">Notifications</h3>
