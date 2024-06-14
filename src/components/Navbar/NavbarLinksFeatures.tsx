@@ -1,10 +1,10 @@
 import { Link } from "react-scroll";
 
 /* button in navbar */
-export function NavbarLinksSupport(): JSX.Element {
+export function NavbarLinksFeatures(): JSX.Element {
   return (
     <Link
-      to="support"
+      to="features"
       smooth
       offset={-50}
       duration={500}
@@ -13,7 +13,7 @@ export function NavbarLinksSupport(): JSX.Element {
       title="Support"
       aria-label="Support"
     >
-      Support
+      How It Works
     </Link>
   );
 }
