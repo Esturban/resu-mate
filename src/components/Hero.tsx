@@ -1,6 +1,6 @@
 import { CloudArrowUpIcon, ArrowDownOnSquareStackIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/24/solid";
 import {v4 as uuid} from "uuid";
-import { HeroResume } from "./Hero/HeroResume";
+// import { HeroResume } from "./Hero/HeroResume";
 import { HeroHeading } from "./Hero/HeroHeading";
 import { HeroImage } from "./Hero/HeroImage";
 
@@ -23,12 +23,15 @@ export default function Hero(): JSX.Element {
   return (
     <div
       id="home"
-      className="w-full h-screen bg-zinc-200 flex flex-col justify-between"
+      className="relative h-screen overflow-hidden bg-indigo-100"
     >
-      <div className="grid md:grid-cols-2 max-w-[1280px] m-auto px-12">
+      <HeroImage />
+      <div className="absolute inset-0 bg-white opacity-25"></div>
+      {/* <header className="absolute top-0 left-0 right-0 z-20"> */}
+        {/* Your Navbar goes here */}
+      {/* </header> */}
+      <div className="container relative z-10 flex items-center py-32 mx-2 md:px-12 xl:py-40">
         <HeroHeading />
-        <HeroImage />
-          <HeroResume />
       </div>
     </div>
   );

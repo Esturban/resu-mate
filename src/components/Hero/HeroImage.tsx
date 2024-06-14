@@ -1,12 +1,12 @@
 /* creates hero image */
 export function HeroImage(): JSX.Element {
   return (
-    <div className="">
-      <img
-        className="w-full invisible sm:visible"
-        src="/cyber-bg.webp"
-        alt="/"
-      />
-    </div>
+    <picture>
+    <img
+      className="absolute object-cover w-full h-full"
+      src="/hero.webp"
+      alt="/"
+    />
+    </picture>
   );
 }
