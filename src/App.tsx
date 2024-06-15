@@ -2,7 +2,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Platform from "./components/Platform";
+import Process from "./components/Process";
 import Pricing from "./components/Pricing";
 import Features from "./components/Features";
 
@@ -14,7 +14,7 @@ export default function App() {
       <Hero />
       <About />
       <Features />
-      <Platform />
+      <Process />
       <Pricing />
       <Footer />
     </>

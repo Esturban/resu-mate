@@ -14,8 +14,8 @@ function About(): JSX.Element {
       pText2: "Delivered",
     },
     {
-      pText1: "100%",
-      pText2: "Client Satisfaction",
+      pText1: "100+",
+      pText2: "Employed",
     },
   ] as const;
 
