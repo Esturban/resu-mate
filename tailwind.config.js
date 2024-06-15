@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -12,5 +13,9 @@ module.exports = {
       'xxs': '430px'}},
     
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities, addComponents, e, config }) {
+      // Add your custom styles here
+    }),
+  ],
 };
