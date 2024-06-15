@@ -1,5 +1,5 @@
 import { NavbarLinksAbout } from "../Navbar/NavbarLinksAbout";
-import { NavbarLinksPlatforms } from "../Navbar/NavbarLinksPlatforms";
+import { NavbarLinksProcess } from "../Navbar/NavbarLinksProcess";
 import { NavbarLinksPricing } from "../Navbar/NavbarLinksPricing";
 import { NavbarLinksFeatures } from "../Navbar/NavbarLinksFeatures";
 import { Link } from "react-scroll";
@@ -25,7 +25,7 @@ export function NavbarLinks(): JSX.Element {
         
         <li>{NavbarLinksAbout()}</li>
         <li>{NavbarLinksFeatures()}</li>
-        <li>{NavbarLinksPlatforms()}</li>
+        <li>{NavbarLinksProcess()}</li>
         <li>{NavbarLinksPricing()}</li>
       </ul>
     </div>
