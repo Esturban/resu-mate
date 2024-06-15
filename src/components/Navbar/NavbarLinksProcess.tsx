@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 
 /* button in navbar */
-export function NavbarLinksPlatforms(): JSX.Element {
+export function NavbarLinksProcess(): JSX.Element {
   return (
     <Link
       to="platforms"
@@ -13,7 +13,7 @@ export function NavbarLinksPlatforms(): JSX.Element {
       title="Platforms"
       aria-label="Platforms"
     >
-      Platforms
+      Process
     </Link>
   );
 }

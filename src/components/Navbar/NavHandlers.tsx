@@ -1,13 +1,12 @@
 // NavHandlers.tsx
 import NavLink from './NavLink';
-import NavButton from './NavButton';
+// import NavButton from './NavButton';
 import { NavLinkType, NavHandlersProps } from './types';
 
 const navLinks: NavLinkType[] = [
-  { to: "home", offset: 0, title: "Home" },
-  { to: "about", offset: -200, title: "About" },
-  { to: "support", offset: -50, title: "Support" },
-  { to: "platforms", offset: -100, title: "Platforms" },
+  { to: "about", offset: -200, title: "Who We Help" },
+  { to: "features", offset: -50, title: "How It Works" },
+  { to: "platforms", offset: -100, title: "Results First" },
   { to: "pricing", offset: -50, title: "Pricing" },
 ];
 
@@ -19,8 +18,8 @@ export function NavHandlers({ nav, handleClose }: NavHandlersProps): JSX.Element
       ))}
       <div className="flex flex-col my-4">
         
-        <NavLink key = "pricing" link={{ to: "pricing", offset: -50, title: "Dream Job Awaits" }} handleClose={handleClose}>
-          <NavButton className="px-8 py-3 bg-indigo-700">Sign Up</NavButton>
+        <NavLink key = "pricing" link={{ to: "pricing", offset: -50, title: "Dream Job Awaits"}} handleClose={handleClose} className="px-8 py-3 xxs:bg-indigo-700 text-white rounded-md text-center .rounded">
+          {/* <NavButton className="px-8 py-3 bg-indigo-700">Sign Up</NavButton> */}
         </NavLink>
       </div>
     </ul>
