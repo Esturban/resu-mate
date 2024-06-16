@@ -1,36 +1,39 @@
-import { CheckCircleIcon } from "@heroicons/react/24/solid";
-import {v4 as uuid} from "uuid";
+// Process.tsx
+import ProcessItem from './Process/ProcessItem';
 
-/* platform component */
 export default function Process(): JSX.Element {
   const data = [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate consequuntur, soluta assumenda laboriosam iusto eius? Hic voluptates in laudantium, cum magni quis, veritatis quasi iusto ipsa, facilis nisi! Fuga, asperiores.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate animi odio ipsam architecto, sequi nostrum recusandae quibusdam qui, assumenda temporibus quod! Laudantium modi id sed, corrupti hic ex error voluptatibus!",
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Eligendi corporis architecto tenetur quam molestias, incidunt enim sapiente voluptatem odio reiciendis, dicta itaque dignissimos. Repudiandae magnam voluptas fugit quae numquam suscipit.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adquae, accusamus, deserunt facilis ipsa qui quisquam facere vel,perspiciatis fugiat odit! Facilis, illo quod dolorem magnam assumenda voluptatibus mollitia rerum.",
-  ] as const;
-
-  const mappedData = data.map((e) => (
-    <div className="flex" key={uuid()}>
-      <div className="w-7 mr-4 text-green-600">
-        <CheckCircleIcon />
-      </div>
-      <div>
-        <h3 className="font-bold text-lg">Notifications</h3>
-        <p className="text-lg pt-2 pb-4">{e}</p>
-      </div>
-    </div>
-  ));
+    {
+      title: "🎯 Achievement-based",
+      content: "Show off your wins. Highlight your best moments and turn your duties into eye-catching achievements that get noticed.",
+    },
+    {
+      title: "📈 Data-driven",
+      content: "Use market insights to shape your resume. Tailor it with real-time data on industry trends and what employers want.",
+    },
+    {
+      title: "📐 Measurable Accomplishments",
+      content: "Prove your worth with numbers. Turn vague claims into solid stats that show exactly what you can do.",
+    },
+    {
+      title: "🔐 Keywords and Applicant Tracking Systems",
+      content: "Beat the bots. Use the right keywords to ensure your resume passes ATS and lands on the recruiter’s desk.",
+    },
+  ];
+  
 
   return (
     <div id="platforms" className="w-full my-32">
       <div className="max-w-[1280px] mx-auto px-2">
-        <h2 className="text-5xl font-bold text-center">All-In-One Platform</h2>
+        <h2 className="text-5xl font-bold text-center mb-4">Our Process</h2>
+        <hr></hr>
         <p className="sm:text-2xl py-8 text-gray-500 text-center">
-          Lorem ipsum dolor sit amet.
+          Resumate - Your Friend in Job Search 🫂
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
-          {mappedData}
+          {data.map((item, index) => (
+            <ProcessItem key={index} title={item.title} content={item.content} />
+          ))}
         </div>
       </div>
     </div>
