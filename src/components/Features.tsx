@@ -7,25 +7,25 @@ function Features(): JSX.Element {
   const data = [
     {
       component: <PhoneIcon />,
-      span: "1. Buy or subscribe",
-      p: "Get a subscription or buy one-time resume update. If you subscribe, you get as many resumes as you'd like with your dream jobs as targets. The more you share, the better we can target your resume",
+      span: "1. Select a Plan",
+      p: "Choose a subscription or a one-time update. With a subscription, you can target as many dream jobs as you want. The more you share, the better we tailor your resume.",
     },
     {
       component: <UserGroupIcon />,
-      span: "2. Receive your resume",
-      p: "Receive your resume within 48 hours, on average.",
+      span: "2. Receive Your Resume",
+      p: "Get your polished resume in just 48 hours, on average.",
     },
     {
       component: <HandThumbUpIcon />,
-      span: "3. Get revisions",
-      p: "We'll revise your resume until you're 100% satisfied.",
+      span: "3. Get Revisions",
+      p: "We'll tweak your resume until you're 100% happy with it.",
     },
-  ] as const;
+  ] as const;  
 
   const columns = data.map((e) => (
     <div className="bg-white rounded-xl shadow-2xl relative" key={uuid()}>
       <div className="p-8">
-        <div className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem] mb-4">
+        <div className="w-20 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem] mb-4">
           {e.component}
         </div>
         <span className="font-bold text-2xl my-18">{e.span}</span>
