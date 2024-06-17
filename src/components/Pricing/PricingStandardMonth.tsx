@@ -4,7 +4,7 @@ import { PricingTail } from "./PricingTail";
 export function PricingStandardMonth(): JSX.Element {
   return (
     <div>
-      <p className="text-6xl font-bold py-4 flex">
+      <p className="text-6xl font-bold py-4 flex justify-center">
         $249
         <PricingTail text={"/ Resume"} />
       </p>
