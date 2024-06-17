@@ -4,14 +4,14 @@ import { Link } from "react-scroll";
 export function NavbarLinksProcess(): JSX.Element {
   return (
     <Link
-      to="platforms"
+      to="process"
       smooth
       offset={-100}
       duration={500}
       rel="noopener noreferrer"
       role="link"
-      title="Platforms"
-      aria-label="Platforms"
+      title="Process"
+      aria-label="Process"
     >
       Process
     </Link>
