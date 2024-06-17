@@ -19,6 +19,7 @@ const standardFeatures = [
 
 
 const premiumFeatures = [
+  "Receive your resume in 24 hours",
   "2 Dedicated resume writers",
   "Unlimited drafts",
   "Unlimited revisions",
