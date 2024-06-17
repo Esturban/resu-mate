@@ -7,7 +7,6 @@ const stripePromise = loadStripe(process.env.REACT_APP_REACT_APP_PUBLIC_PRODUCT_
 /**
  * create pricing card on the top/left side (based on viewpoint)
  * 
- * Product ID: prod_QJKbdbUestUCd9
  */
 export function PricingCardLeft(): JSX.Element {
   const options = {
