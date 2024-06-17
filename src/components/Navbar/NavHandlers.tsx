@@ -6,7 +6,7 @@ import { NavLinkType, NavHandlersProps } from './types';
 const navLinks: NavLinkType[] = [
   { to: "about", offset: -200, title: "Who We Help" },
   { to: "features", offset: -50, title: "How It Works" },
-  { to: "platforms", offset: -100, title: "Results First" },
+  { to: "process", offset: -100, title: "Results First" },
   { to: "pricing", offset: -50, title: "Pricing" },
 ];
 
