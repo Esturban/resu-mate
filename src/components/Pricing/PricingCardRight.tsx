@@ -1,5 +1,5 @@
-import { GetStarted } from "../GetStarted";
-import { mappeddataCheckmark } from "../Pricing";
+import GetStarted from "../GetStarted";
+import { premium } from "../Pricing";
 
 /**
  * create pricing card on the right/bottom side (based on viewpoint)
@@ -7,14 +7,15 @@ import { mappeddataCheckmark } from "../Pricing";
 export function PricingCardRight(): JSX.Element {
   return (
     <div className="text-2xl">
-      <p className="text-2xl py-8 text-slate-500">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste,
-        adipisci? Sapiente.?
+      <p className="text-2xl py-4 text-slate-500 text-center mb-0">
+      Unlimited Resumes.
       </p>
-      {mappeddataCheckmark.map((_: object, idx: number): JSX.Element => {
-        return mappeddataCheckmark[mappeddataCheckmark.length - 1 - idx];
-      })}
-      <GetStarted />
+      <p className="text-2xl py-0 font-bold text-slate-500 text-center mb-2">
+      Unlimited Opportunities.
+      </p>
+      <hr></hr>
+      {premium}
+      <GetStarted productId={process.env.REACT_APP_PREMIUM_PRICE || ''}  productMode={'subscription'}/>
     </div>
   );
 }

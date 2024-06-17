@@ -1,19 +1,19 @@
 import { Link } from "react-scroll";
 
 /* button in navbar */
-export function NavbarLinksSupport(): JSX.Element {
+export function NavbarLinksFeatures(): JSX.Element {
   return (
     <Link
-      to="support"
+      to="features"
       smooth
       offset={-50}
       duration={500}
       rel="noopener noreferrer"
       role="link"
-      title="Support"
+      title="How It Works"
       aria-label="Support"
     >
-      Support
+      How It Works
     </Link>
   );
 }
