@@ -27,9 +27,9 @@ export default function Process(): JSX.Element {
       <div className="max-w-[1280px] mx-auto px-2">
         <h2 className="text-5xl font-bold text-center mb-4">Our Process</h2>
         <hr></hr>
-        <p className="sm:text-2xl py-8 text-gray-500 text-center">
-          Resumate - Your Friend in Job Search 🫂
-        </p>
+        <h3 className="text-2xl sm:text-5xl sm:text-2xl py-8 text-gray-500 text-center">
+          Your Friend in Job Search 🫂
+        </h3>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {data.map((item, index) => (
             <ProcessItem key={index} title={item.title} content={item.content} />
