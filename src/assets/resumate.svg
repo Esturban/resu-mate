@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166.2746621523056 209.5319042997471" width="166.2746621523056" height="209.5319042997471">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <g stroke-linecap="round"><g transform="translate(10.410680228653291 10.754220878352498) rotate(0 70.69449824618778 86.60076035157999)"><path d="M0 0 C1.07 49.66, 1.87 96.78, 0 173.2 M0 0 C-1.14 40.91, 0.5 83.19, 0 173.2 M0 173.2 C38.83 171.22, 80.67 174.18, 141.39 173.2 M0 173.2 C52.84 173.7, 104.69 172.95, 141.39 173.2 M141.39 173.2 C140.83 144.29, 139.65 118, 141.39 49.49 M141.39 173.2 C140.33 126.23, 141.15 81.42, 141.39 49.49 M141.39 49.49 C127.04 49.94, 117.03 48.82, 95.88 49.49 M141.39 49.49 C130.18 50.25, 117.63 49.43, 95.88 49.49 M95.88 49.49 C93.75 37.07, 95.23 25.81, 95.88 1.77 M95.88 49.49 C96.06 35.26, 95.89 19.81, 95.88 1.77 M95.88 1.77 C109.27 16.78, 123.32 32.16, 141.39 49.49 M95.88 1.77 C103.86 11.29, 114.4 20.99, 141.39 49.49 M141.39 49.49 C132.33 40.92, 122.79 29.7, 94.26 0 M141.39 49.49 C127.61 34.38, 112.73 18.23, 94.26 0 M94.26 0 C74.92 1.07, 55.12 -1.88, 0 0 M94.26 0 C74.02 1.27, 53.12 0.99, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g></g><mask></mask><g transform="translate(17.953734608352534 44.69301483761592) rotate(0 62 77.4194447310656)"><text x="0" y="108.51109373506118" font-family="Virgil, Segoe UI Emoji" font-size="123.87111156970455px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">🫂</text></g><g transform="translate(104.27466215230561 10) rotate(0 26 32.69486860795496)"><text x="0" y="45.825127840909076" font-family="Virgil, Segoe UI Emoji" font-size="52.311789772727266px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">✨</text></g></svg>
