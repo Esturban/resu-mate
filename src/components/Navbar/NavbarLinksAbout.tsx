@@ -10,7 +10,7 @@ export function NavbarLinksAbout(): JSX.Element {
       duration={500}
       rel="noopener noreferrer"
       role="link"
-      title="About"
+      title="Who We Help"
       aria-label="About"
     >
       About

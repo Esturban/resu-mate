@@ -25,3 +25,5 @@ export type NavLinkType = {
     nav: boolean;
     handleClose: () => void;
   };
+
+  

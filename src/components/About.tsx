@@ -6,16 +6,16 @@ import { AboutText } from "./About/AboutText";
 function About(): JSX.Element {
   const data = [
     {
-      pText1: "100%",
-      pText2: "Completion",
+      pText1: "48 hrs",
+      pText2: "Turnaround",
     },
     {
-      pText1: "24/7",
-      pText2: "Delivery",
+      pText1: "500+",
+      pText2: "Delivered",
     },
     {
-      pText1: "100%",
-      pText2: "Transactions",
+      pText1: "100+",
+      pText2: "Employed",
     },
   ] as const;
 
