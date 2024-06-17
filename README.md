@@ -1,6 +1,6 @@
-# Cloud Landing Page
+# Resu-mate
 
-A landing page template built with Typescript, React, and Tailwind CSS.
+A landing page for Resumate, a services landing page built with Typescript, React, and Tailwind CSS.
 
 ## Table of Contents
 
@@ -14,22 +14,22 @@ A landing page template built with Typescript, React, and Tailwind CSS.
 
 ## About
 
-This project is a landing page template built with Typescript, React, and Tailwind CSS. It provides a responsive and visually appealing design for showcasing cloud-based services or products.
+This project is a landing page built with Typescript, React, and Tailwind CSS. It provides a responsive and visually appealing design for enabling the option to sell a service or one off payment for a service via stripe.
 
 ## Installation
 
 To get started with this project, you'll need to follow these steps:
 
-1. Clone the repository: `git clone https://github.com/milliorn/cloud-landing-page.git`
-2. Navigate to the project directory: `cd cloud-landing-page`
-3. Install the dependencies: `npm install`
+1. Clone the repository: `git clone https://github.com/Esturban/resu-mate.git`
+2. Navigate to the project directory: `cd resu-mate`
+3. Install the dependencies: `bun install`
 
 ## Usage
 
 To run the project locally, use the following command:
 
 ```bash
-npm run start
+bun run start
 ```
 
 This will start the development server, and you can view the website in your browser at [http://localhost:3000](http://localhost:3000).
@@ -47,6 +47,7 @@ Here are some resources related to the technologies used in this project:
 - [Heroicons](https://github.com/tailwindlabs/heroicons)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [react-uuid Package](https://github.com/RickBr0wn/react-uuid)
+- [stripe](https://docs.stripe.com/payments/accept-a-payment)
 
 ## Contributing
 
@@ -54,8 +55,8 @@ Contributions are welcome! If you'd like to contribute to this project, feel fre
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [EV Advisory](LICENSE).
 
 ## Preview
 
-![Cloud Landing Page](public/preview.png)
+<!-- ![Cloud Landing Page](public/preview.png) -->
