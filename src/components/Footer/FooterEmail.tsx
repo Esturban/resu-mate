@@ -5,10 +5,10 @@ export function FooterEmail(): JSX.Element {
   return (
     <div className="col-span-2 pt-8 md:pt-0 p-4">
       <p className="font-bold uppercase text-center text-white">
-        Subscribe to our newsletter
+        Subscribe for Resume Tips
       </p>
       <p className="py-4 text-gray-200">
-        The latest news, articles, and resources, sent to your inbox weekly.
+        Right to your inbox, only the good stuff.
       </p>
       <FooterForm />
     </div>
