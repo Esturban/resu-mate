@@ -1,4 +1,4 @@
-import { GetStarted } from "../GetStarted";
+import GetStarted from "../GetStarted";
 import { premium } from "../Pricing";
 
 /**
@@ -15,7 +15,7 @@ export function PricingCardRight(): JSX.Element {
       </p>
       <hr></hr>
       {premium}
-      <GetStarted />
+      <GetStarted productId={process.env.REACT_APP_PREMIUM_PRICE || ''}  productMode={'subscription'}/>
     </div>
   );
 }
