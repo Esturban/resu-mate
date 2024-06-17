@@ -8,17 +8,33 @@ export function paraLorem({ text }: { text: string }): void {
   <p className="text-2xl py-8 text-slate-500">{text}</p>;
 }
 
-const dataCheckmark = [
-  "Lorem ipsum dolor sit, amet consectetur adipisicing.",
-  "Lorem ipsum dolor sit, amet consectetur.",
-  "Lorem ipsum dolor sit amet.",
-  "Lorem ipsum dolor sit.",
-  "Lorem, ipsum dolor.",
+const standardFeatures = [
+  "Receive your resume in 48 hours",
+  "1 Dedicated resume writer",
+  "ATS Optimized",
+  "Unlimited revisions",
+  "Achievement-based",
+  "Include up to 10 target jobs"
 ] as const;
 
-export const mappeddataCheckmark = dataCheckmark.map((e) => (
+
+const premiumFeatures = [
+  "2 Dedicated resume writers",
+  "Unlimited drafts",
+  "Unlimited revisions",
+  "Unlimited dream job targets",
+  "Dedicated career coach",
+] as const;
+
+
+export const standard = standardFeatures.map((e) => (
   <div key={uuid()} className="text-2xl">
-    {CheckMark({ text: e })}
+    <CheckMark text={e} />
+  </div>
+));
+
+export const premium = premiumFeatures.map((e) => (
+  <div key={uuid()} className="text-2xl">
     <CheckMark text={e} />
   </div>
 ));
