@@ -56,7 +56,7 @@ export default function Footer(): JSX.Element {
   // ));
 
   return (
-    <div className="w-full mt-24 bg-slate-900 py-y px-2 justify-center">
+    <div className="lg:w-full mt-24 bg-slate-900 py-y px-2 justify-center">
       {/* <div className="max-w-[1280px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8"> */}
       <div className="max-w-[1280px] mx-auto border-b-2 border-gray-600 py-8 content-center text-center">
       {/* {mappedData} */}
