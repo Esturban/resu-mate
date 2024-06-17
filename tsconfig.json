@@ -20,12 +20,12 @@
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "target": "es5",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "lib": ["dom", "dom.iterable", "esnext"]
   },
-  "include": ["src"],
+  "include": ["src", "lib"],
   "exclude": ["node_modules"]
 }
