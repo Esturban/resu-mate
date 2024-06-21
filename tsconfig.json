@@ -26,6 +26,6 @@
     "noUnusedParameters": true,
     "lib": ["dom", "dom.iterable", "esnext"]
   },
-  "include": ["src", "lib"],
+  "include": ["src", "lib","."],
   "exclude": ["node_modules"]
 }
