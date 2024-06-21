@@ -41,6 +41,6 @@ export default function GetStarted({ productId, productMode }: GetStartedProps) 
   }, []);
 
   return (
-    <button type="button" className="w-full py-4 -my-1 bottom-0 bg-indigo-700 rounded-full mt-2" onClick={handleCheckout}>Your Best Resume</button>
+    <button type="button" className="w-full py-4 -my-1 bottom-0 bg-sky-700 rounded-full mt-2" onClick={handleCheckout}>Your Best Resume</button>
   );
 }

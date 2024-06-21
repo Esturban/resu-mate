@@ -11,9 +11,6 @@ import Features from "./components/Features";
 
 /* main app entry */
 export default function App() {
-  // console.log(process.env.REACT_APP_YOUR_API_KEY);
-  // console.log(process.env.REACT_APP_STRIPE_URL);
-  // console.log(process.env.REACT_APP_STRIPE_API_KEY);
   return (
     <>
       <Navbar />

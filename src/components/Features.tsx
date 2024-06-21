@@ -25,7 +25,7 @@ function Features(): JSX.Element {
   const columns = data.map((e) => (
     <div className="bg-white rounded-xl shadow-2xl relative" key={uuid()}>
       <div className="p-8">
-        <div className="w-20 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem] mb-4">
+        <div className="w-20 p-4 bg-sky-600 text-white rounded-lg mt-[-4rem] mb-4">
           {e.component}
         </div>
         <span className="font-bold text-2xl my-18">{e.span}</span>
