@@ -18,8 +18,8 @@ export function NavHandlers({ nav, handleClose }: NavHandlersProps): JSX.Element
       ))}
       <div className="flex flex-col my-4">
         
-        <NavLink key = "pricing" link={{ to: "pricing", offset: -50, title: "Dream Job Awaits"}} handleClose={handleClose} className="px-8 py-3 xxs:bg-indigo-700 text-white rounded-md text-center .rounded">
-          {/* <NavButton className="px-8 py-3 bg-indigo-700">Sign Up</NavButton> */}
+        <NavLink key = "pricing" link={{ to: "pricing", offset: -50, title: "Dream Job Awaits"}} handleClose={handleClose} className="px-8 py-3 xxs:bg-sky-700 text-white rounded-md text-center .rounded">
+          {/* <NavButton className="px-8 py-3 bg-sky-700">Sign Up</NavButton> */}
         </NavLink>
       </div>
     </ul>

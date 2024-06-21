@@ -2,7 +2,7 @@ import {v4 as uuid} from "uuid";
 import { CheckMark } from "./CheckMark";
 import { PricingCards } from "./Pricing/PricingCards";
 import { PricingText } from "./Pricing/PricingText";
-
+import { Component as PricingFAQs } from "./Pricing/PricingFAQs";    
 /* create lorem text */
 export function paraLorem({ text }: { text: string }): void {
   <p className="text-2xl py-8 text-slate-500">{text}</p>;
@@ -48,6 +48,7 @@ export default function Pricing(): JSX.Element {
       <div className="max-w-[1280px] mx-auto py-12">
         <PricingText />
         <PricingCards />
+        <PricingFAQs />
       </div>
     </div>
   );
