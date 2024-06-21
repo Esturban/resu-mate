@@ -59,4 +59,4 @@ This project is licensed under the [EV Advisory](LICENSE).
 
 ## Preview
 
-<!-- ![Cloud Landing Page](public/preview.png) -->
+![Resumates](public/preview.png)
