@@ -7,7 +7,7 @@ export function FooterForm(): JSX.Element {
         type="email"
         placeholder="Your email.."
       />
-      <button type="button" className="p-2 mb-4 bg-indigo-700 text-white">
+      <button type="button" className="p-2 mb-4 bg-sky-700 text-white">
         Free Resume Tips
       </button>
     </form>

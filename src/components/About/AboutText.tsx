@@ -11,7 +11,7 @@ export function AboutText(): JSX.Element {
       </h2>
       
       <p className="sm:text-3xl xxs:text-2xl py-6 text-gray-500 px-5 sm:px-4 md:px-3 lg:px-2 xl:px-1">
-      We use the best resume formulas from <span className="font-bold">top-tier head hunters and ivy league schools .</span>
+      We use the best resume formulas from <span className="font-bold">top-tier head hunters and ivy league schools.</span>
       </p>
       <p className="sm:text-3xl  xxs:text-2xl py-6 text-gray-500 px-5 sm:px-4 md:px-3 lg:px-2 xl:px-1">
       Traditional resumes don't cut it anymore.
