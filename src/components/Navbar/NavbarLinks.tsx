@@ -19,8 +19,8 @@ export function NavbarLinks(): JSX.Element {
         title="Home"
         aria-label="Home">
         <h1 className="flex items-center text-3xl font-bold mr-4 sm:text-4xl cursor-pointer">
-          <Logo className="w-6 h-6 sm:w-8 sm:h-8 mr-2" /> 
-          Resumate
+          <Logo className="w-6 h-6 sm:w-8 sm:h-8 lg:h-16 md:h-16 mr-2" /> 
+          Resumates
         </h1>
       </Link>
       <ul className="hidden md:flex cursor-pointer">
