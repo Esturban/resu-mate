@@ -27,7 +27,7 @@ function About(): JSX.Element {
   ));
 
   return (
-    <div id="about" className="w-full my-12 sm:my-32">
+    <div id="about" className="w-full my-12 sm:my-32 z-1">
       <div className="max-w-[1280px] mx-auto">
         <AboutText />
         <AboutMappedData mappedData={mappedData} />
