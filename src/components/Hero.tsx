@@ -30,7 +30,7 @@ export default function Hero(): JSX.Element {
       {/* <header className="absolute top-0 left-0 right-0 z-20"> */}
         {/* Your Navbar goes here */}
       {/* </header> */}
-      <div className="container relative z-10 flex items-center py-32 mx-2 md:px-12 xl:py-40 xxl:mb-50 xl:mb-80 xl:py-auto">
+      <div className="container relative z-10 flex items-center py-32 xl:py-sm lg:py-sm xxl:py-sm md:py-20 mx-2 md:px-12 xl:py-sm xxl:mb-50 xl:mb-0 xl:pt-auto ">
         <HeroHeading />
         
       </div>
