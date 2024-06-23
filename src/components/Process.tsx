@@ -20,17 +20,16 @@ export default function Process(): JSX.Element {
       content: "Beat the bots. Use the right keywords to ensure your resume passes ATS and lands on the recruiter’s desk.",
     },
   ];
-  
 
   return (
-    <div id="process" className="w-full my-32">
-      <div className="max-w-[1280px] mx-auto px-2">
-        <h2 className="text-5xl font-bold text-center mb-4">Our Process</h2>
-        <hr></hr>
-        <h3 className="text-xl lg:text-2xl sm:text-5xl sm:text-2xl py-8 text-gray-500 text-center">
+    <div id="process" className="w-full my-32 px-4 lg:px-0">
+      <div className="max-w-[1280px] mx-auto">
+        <h2 className="text-3xl lg:text-5xl font-bold text-center mb-4">Our Process</h2>
+        <hr className="border-t-2 border-gray-200"></hr>
+        <h3 className="text-xl lg:text-2xl py-8 text-gray-500 text-center">
           Your Friend in Job Search 🫂
         </h3>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-4">
           {data.map((item, index) => (
             <ProcessItem key={index} title={item.title} content={item.content} />
           ))}
