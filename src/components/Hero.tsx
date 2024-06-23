@@ -27,14 +27,9 @@ export default function Hero(): JSX.Element {
     >
       <HeroImage />
       <div className="absolute inset-0 bg-white opacity-25"></div>
-      {/* <header className="absolute top-0 left-0 right-0 z-20"> */}
-        {/* Your Navbar goes here */}
-      {/* </header> */}
-      <div className="container relative z-10 flex items-center py-32 mx-2 md:px-12 xl:py-40 xxl:mb-50 xl:mb-80 xl:py-auto">
+      <div className="container relative z-10 flex items-center py-8 px-4 md:py-24 lg:py-32 xl:py-56 mx-auto">
         <HeroHeading />
-        
       </div>
-      
       <HeroLogos />
     </div>
   );
