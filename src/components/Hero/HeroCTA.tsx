@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 
-/* get started button in hero element */
 export function HeroCTA(): JSX.Element {
   const [isClicked, setIsClicked] = useState(false);
 
@@ -11,7 +10,7 @@ export function HeroCTA(): JSX.Element {
   };
 
   return (
-    <Link onClick={handleClick} to="pricing" smooth={true} duration={500} type="button" className={`py-3 w-full pr-4 pl-4 my-4 bg-sky-700 hover:bg-sky-300 rounded-full transform hover:scale-110 transition-all duration-200 ease-in-out hover:text-gray-800 text-white text-center text-lg ${isClicked ? 'animate-bounce' : ''}`}>
+    <Link onClick={handleClick} to="pricing" smooth={true} duration={500} type="button" className={`mx-auto inline-flex justify-center items-center py-3 px-6 min-w-[160px] bg-sky-700 hover:bg-sky-300 xl:w-3/4 xl:float-left rounded-full transform hover:scale-110 transition-all duration-200 ease-in-out hover:text-gray-800 text-white text-lg ${isClicked ? 'animate-bounce' : ''}`}>
       Dream Job Awaits
     </Link>
   );
