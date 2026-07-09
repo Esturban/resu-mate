@@ -377,3 +377,4 @@ MigrationBackup/
 
 # AI-tool scaffolding
 *.code-workspace
+.codegraph/
