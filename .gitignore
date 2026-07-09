@@ -378,3 +378,7 @@ MigrationBackup/
 # AI-tool scaffolding
 *.code-workspace
 .codegraph/
+AGENTS.md
+AGENTS.MD
+CLAUDE.md
+GEMINI.md
